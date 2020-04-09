@@ -7,10 +7,6 @@ package Bai2;
 
 import leducbinh_59130126_baitapjava.NhanVien;
 
-/**
- *
- * @author GIGABYTE
- */
 public class Main1 {
      public static void main(String[] args) {
    
@@ -28,7 +24,7 @@ public class Main1 {
     nv2.setTen("Tran Van Cap");
     nv2.setTuoi(23);
     nv2.setDiaChi("Da Nang");
-    nv2.setTienLuong(10000000);
+    nv2.setTienLuong(1000000);
     nv2.setTongGioLam(50);
 
     NhanVien nv3 = new NhanVien();
@@ -49,10 +45,10 @@ public class Main1 {
     nv5.setTen("Le Trung");
     nv5.setTuoi(24);
     nv5.setDiaChi("Ca Mau");
-    nv5.setTienLuong(10000000);
+    nv5.setTienLuong(1000000);
     nv5.setTongGioLam(100);
 
-    // add nhan vien list vao qlNhanVien
+    // them nhan vien list vao qlNhanVien
     qlNhanVien.them(nv1);
     qlNhanVien.them(nv2);
     qlNhanVien.them(nv3);
