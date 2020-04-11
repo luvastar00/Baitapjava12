@@ -9,20 +9,21 @@ package Bai3;
  *
  * @author GIGABYTE
  */
-public class SinhVienIT extends SinhVienPoly
-{
+public class SinhVienIT extends SinhVienPoly{
+
     public double diemJava;
     public double diemHtml;
     public double diemCss;
-    public SinhVienIT(String hoten,String nganh,double diemJava,double diemHtml,double diemCss)
-    {
-        super(hoten, nganh);
-        this.diemJava= diemJava;
-        this.diemHtml= diemHtml;
-        this.diemCss= diemCss;
-        
+    
+    public SinhVienIT(String hoten, String nganh, double diemJava, double diemHtml, double diemCss){
+    super(hoten, nganh);
+    this.diemJava=diemJava;
+    this.diemHtml=diemHtml;
+    this.diemCss=diemCss;
     };
-    public double getdiem()
+    
+   
+    public double getDiem()
     {
         return (2*this.diemJava+this.diemHtml+this.diemCss)/4;
     }
