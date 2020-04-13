@@ -55,11 +55,11 @@ class QuanLyChuyenXe
     }
 
     
-    public double tongDoanhThu() {
+     public double tongDoanhThu() {
       double doanhThu = 0;
       for (ChuyenXe cx : dsChuyenXe) {
-        doanhthu += cx.doanhthu;
+        doanhThu += cx.doanhthu;
       }
-      return doanhthu;
+      return doanhThu;
     }
 }

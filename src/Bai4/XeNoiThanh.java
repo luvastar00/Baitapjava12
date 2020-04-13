@@ -13,15 +13,15 @@ public class XeNoiThanh extends ChuyenXe
 {
     public String sotyen;
     public double sokm;
-    public XeNoiThanh(String masochuyen, String hotentaixe, String soxe double doanhthu, String sotuyen,double sokm)
+    public XeNoiThanh(String masochuyen, String hotentaixe, String soxe, double doanhthu, String sotuyen,double sokm)
     {
-        super (masochuyen,hotentaixem,soxe,doanhthu);
+        super (masochuyen,hotentaixe,soxe,doanhthu);
         this.sotyen = sotuyen;
         this.sokm = sokm;
     }
       public void xuat() {
       super.xuat();
-      System.out.println("Tuyen: " + this.soTuyen);
-      System.out.println("So km di duoc: " + this.soKm);
+      System.out.println("Tuyen: " + this.sotyen);
+      System.out.println("So km di duoc: " + this.sokm);
     }
 }

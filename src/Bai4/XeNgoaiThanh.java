@@ -15,10 +15,10 @@ public class XeNgoaiThanh extends ChuyenXe
     public int songay;
   
     
-    public XeNgoaiThanh(String masochuyen, String hotentaiXe, String soxe, double doanhthu, String noiden, int songay) {
-    super(masochuyen, hotentaixe, soxe, doanhthu);
-    this.noiDen = noiDen;
-    this.soNgay = soNgay;
+   public XeNgoaiThanh(String maSoChuyen, String hoTenTaiXe, String soXe, double doanhThu, String noiDen, int soNgay) {
+    super(maSoChuyen, hoTenTaiXe, soXe, doanhThu);
+    this.noiden = noiden;
+    this.songay = songay;
     }
     
     public void xuat() {

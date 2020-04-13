@@ -11,22 +11,22 @@ package Bai4;
  */
 abstract class ChuyenXe 
 {
-    public String maSoChuyen;
-    public String hoTenTaiXe;
-    public String soXe;
-    public double doanhThu;
-    public ChuyenXe(String maSoChuyen, String hoTenTaiXe, String soXe, double doanhThu)
+    public String masochuyen;
+    public String hotentaixe;
+    public String soxe;
+    public double doanhthu;
+    public ChuyenXe(String masochuyen, String hotentaixe, String soxe, double doanhthu)
     {
-    this.maSoChuyen=maSoChuyen;
-    this.hoTenTaiXe=hoTenTaiXe;
-    this.soXe=soXe;
-    this.doanhThu=doanhThu;
+    this.masochuyen=masochuyen;
+    this.hotentaixe=hotentaixe;
+    this.soxe=soxe;
+    this.doanhthu=doanhthu;
     }
     public void xuat()
     {
-      System.out.println("Ma chuyen xe: " + this.maSoChuyen);
-      System.out.println("Ho ten tai xe: " + this.hoTenTaiXe);
-      System.out.println("So xe: " + this.soXe);
-      System.out.printf("Doanh thu: %.00f\n", this.doanhThu);
+      System.out.println("Ma chuyen xe: " + this.masochuyen);
+      System.out.println("Ho ten tai xe: " + this.hotentaixe);
+      System.out.println("So xe: " + this.soxe);
+      System.out.printf("Doanh thu: %.00f\n", this.doanhthu);
     }
 }
